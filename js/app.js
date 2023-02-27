@@ -84,7 +84,12 @@ Test this function by hand in the console to get it working, and when you think 
 let testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) { //eslint-disable-line       
+let z = sum(testArray[0,1])[0];
+let x = sum (z, testArray[2])[0];
+return [x, `${testArray[0]},${testArray[2]} was passed in as an array of numbers, and nine is their sum.'`];
 
+
+let y = multiply
 }
 
 // Here is the test for sumArray(); uncomment it to run it
