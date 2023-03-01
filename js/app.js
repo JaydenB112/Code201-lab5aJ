@@ -108,6 +108,13 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
+    let a = testArray[0]
+    let b = testArray[1]
+    let c = testArray[2]
+    let total = multiply(testArray[0], testArray[1])[0]
+    let product = multiply(total,testArray[2])[0]
+    console.log
+    return[product, `The numbers ${a},${b},${c} have a product of ${product}.`]
 
 }
 
